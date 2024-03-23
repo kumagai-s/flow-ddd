@@ -1,0 +1,12 @@
+#                                                                          #
+# Service                                                                  #
+#                                                                          #
+
+
+
+#                                                                          #
+# Repository                                                               #
+#                                                                          #
+
+Neos\Welcome\Domain\Interface\IUserRepository:
+  className: Neos\Welcome\Infrastructure\Repository\Doctrine\UserRepository

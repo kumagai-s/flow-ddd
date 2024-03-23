@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "vendor/demo",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Demo\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Vendor.Demo"
+        }
+    }
+}
