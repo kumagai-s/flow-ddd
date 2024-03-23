@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Vendor\Demo\Presentation\Api\Controller;
@@ -12,8 +13,8 @@ class UserController extends RestController
      */
     public function indexAction()
     {
-        $this->view->assign('foos', array(
-            'bar', 'baz'
-        ));
+        $this->view->assign('foos', [
+            'bar', 'baz',
+        ]);
     }
 }

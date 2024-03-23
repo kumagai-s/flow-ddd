@@ -1,39 +1,57 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Timestamp;
 
-use Neos\Flow\Annotations as Flow;
-
 class Timestamp
 {
     public function __construct(
-        private TimestampId        $id,
-        private TimestampType      $type,
-    ) {}
+        private readonly TimestampId $id,
+        private TimestampType $type,
+        private \DateTimeImmutable $clockInAt,
+        private readonly \DateTimeImmutable $createdAt,
+        private ?\DateTimeImmutable $updatedAt = null,
+    ) {
+    }
 
     public function id(): TimestampId
     {
         return $this->id;
     }
-    
-    public function date(): TimestampType
+
+    public function type(): TimestampType
     {
-        return $this->date;
+        return $this->type;
     }
-    
-    public function inTime(): TimestampTime
+
+    public function clockInAt(): \DateTimeImmutable
     {
-        return $this->inTime;
+        return $this->clockInAt;
     }
-    
-    public function outTime(): PunchTimeOutTime
+
+    public function createdAt(): \DateTimeImmutable
     {
-        return $this->outTime;
+        return $this->createdAt;
     }
-    
-    public function totalTime(): PunchTimeTotalTime
+
+    public function updatedAt(): ?\DateTimeImmutable
     {
-        return $this->totalTime;
+        return $this->updatedAt;
+    }
+
+    public function changeType(TimestampType $type): void
+    {
+        $this->type = $type;
+    }
+
+    public function changeDatetime(\DateTimeImmutable $datetime): void
+    {
+        $this->clockInAt = $datetime;
+    }
+
+    public function changeUpdatedAt(\DateTimeImmutable $datetime): void
+    {
+        $this->updatedAt = $datetime;
     }
 }

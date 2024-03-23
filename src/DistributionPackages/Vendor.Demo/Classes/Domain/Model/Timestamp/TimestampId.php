@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Timestamp;
@@ -6,7 +7,7 @@ namespace Vendor\Demo\Domain\Model\Timestamp;
 class TimestampId
 {
     public function __construct(
-        private string $value,
+        private readonly string $value,
     ) {
         if (empty($value)) {
             throw new \InvalidArgumentException('Punch time id cannot be empty');

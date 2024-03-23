@@ -215,3 +215,514 @@
 [17] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
 [17] Log closed at 2024-03-22 15:08:44.086090
 
+[179] Log opened at 2024-03-23 02:35:58.519130
+[179] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.179'
+[179] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[179] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[179] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[179] Log closed at 2024-03-23 02:36:05.155874
+
+[235] Log opened at 2024-03-23 02:43:02.998073
+[235] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.235'
+[235] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[235] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[235] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[250] Log opened at 2024-03-23 02:43:03.310286
+[250] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.250'
+[250] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[250] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[250] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[250] Log closed at 2024-03-23 02:43:03.554763
+
+[235] Log closed at 2024-03-23 02:43:03.558325
+
+[255] Log opened at 2024-03-23 02:59:02.062526
+[255] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.255'
+[255] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[255] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[255] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[270] Log opened at 2024-03-23 02:59:02.391304
+[270] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.270'
+[270] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[270] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[270] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[270] Log closed at 2024-03-23 02:59:02.658002
+
+[255] Log closed at 2024-03-23 02:59:02.661043
+
+[275] Log opened at 2024-03-23 02:59:45.027841
+[275] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.275'
+[275] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[275] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[275] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[290] Log opened at 2024-03-23 02:59:45.267345
+[290] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.290'
+[290] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[290] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[290] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[290] Log closed at 2024-03-23 02:59:45.465499
+
+[275] Log closed at 2024-03-23 02:59:45.469898
+
+[295] Log opened at 2024-03-23 03:16:05.550736
+[295] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.295'
+[295] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[295] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[295] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[295] Log closed at 2024-03-23 03:16:05.623504
+
+[337] Log opened at 2024-03-23 03:17:43.457703
+[337] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.337'
+[337] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[337] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[337] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[337] Log closed at 2024-03-23 03:17:43.721336
+
+[350] Log opened at 2024-03-23 03:17:45.030470
+[350] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.350'
+[350] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[350] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[350] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[350] Log closed at 2024-03-23 03:17:45.220435
+
+[363] Log opened at 2024-03-23 03:19:37.848789
+[363] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.363'
+[363] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[363] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[363] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[363] Log closed at 2024-03-23 03:19:38.073972
+
+[376] Log opened at 2024-03-23 03:19:59.890399
+[376] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.376'
+[376] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[376] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[376] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[376] Log closed at 2024-03-23 03:20:00.102914
+
+[388] Log opened at 2024-03-23 03:20:01.391816
+[388] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.388'
+[388] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[388] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[388] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[388] Log closed at 2024-03-23 03:20:01.575623
+
+[401] Log opened at 2024-03-23 03:20:07.897859
+[401] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.401'
+[401] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[401] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[401] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[401] Log closed at 2024-03-23 03:20:08.101361
+
+[413] Log opened at 2024-03-23 03:20:09.396882
+[413] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.413'
+[413] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[413] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[413] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[413] Log closed at 2024-03-23 03:20:09.583080
+
+[426] Log opened at 2024-03-23 03:20:31.777559
+[426] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.426'
+[426] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[426] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[426] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[426] Log closed at 2024-03-23 03:20:31.988838
+
+[439] Log opened at 2024-03-23 03:20:33.291589
+[439] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.439'
+[439] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[439] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[439] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[439] Log closed at 2024-03-23 03:20:33.482108
+
+[452] Log opened at 2024-03-23 03:20:59.991177
+[452] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.452'
+[452] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[452] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[452] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[452] Log closed at 2024-03-23 03:21:00.212689
+
+[464] Log opened at 2024-03-23 03:21:14.025308
+[464] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.464'
+[464] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[464] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[464] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[464] Log closed at 2024-03-23 03:21:14.240097
+
+[477] Log opened at 2024-03-23 03:21:15.562526
+[477] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.477'
+[477] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[477] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[477] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[477] Log closed at 2024-03-23 03:21:15.749745
+
+[490] Log opened at 2024-03-23 03:22:03.235721
+[490] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.490'
+[490] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[490] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[490] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[490] Log closed at 2024-03-23 03:22:03.455575
+
+[503] Log opened at 2024-03-23 03:22:54.357756
+[503] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.503'
+[503] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[503] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[503] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[503] Log closed at 2024-03-23 03:22:54.621082
+
+[516] Log opened at 2024-03-23 03:23:39.431502
+[516] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.516'
+[516] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[516] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[516] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[516] Log closed at 2024-03-23 03:23:39.643608
+
+[529] Log opened at 2024-03-23 03:23:56.354023
+[529] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.529'
+[529] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[529] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[529] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[529] Log closed at 2024-03-23 03:23:56.565427
+
+[542] Log opened at 2024-03-23 03:24:40.676932
+[542] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.542'
+[542] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[542] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[542] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[542] Log closed at 2024-03-23 03:24:40.887317
+
+[555] Log opened at 2024-03-23 03:25:48.049827
+[555] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.555'
+[555] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[555] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[555] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[555] Log closed at 2024-03-23 03:25:48.254468
+
+[568] Log opened at 2024-03-23 03:26:32.161149
+[568] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.568'
+[568] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[568] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[568] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[568] Log closed at 2024-03-23 03:26:32.364454
+
+[581] Log opened at 2024-03-23 03:26:37.448874
+[581] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.581'
+[581] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[581] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[581] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[581] Log closed at 2024-03-23 03:26:37.650449
+
+[594] Log opened at 2024-03-23 03:26:43.491744
+[594] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.594'
+[594] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[594] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[594] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[594] Log closed at 2024-03-23 03:26:43.701043
+
+[607] Log opened at 2024-03-23 03:26:49.334893
+[607] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.607'
+[607] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[607] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[607] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[607] Log closed at 2024-03-23 03:26:49.541047
+
+[619] Log opened at 2024-03-23 03:26:54.234953
+[619] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.619'
+[619] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[619] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[619] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[619] Log closed at 2024-03-23 03:26:54.439637
+
+[632] Log opened at 2024-03-23 03:26:59.640811
+[632] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.632'
+[632] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[632] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[632] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[632] Log closed at 2024-03-23 03:26:59.844445
+
+[645] Log opened at 2024-03-23 03:27:06.035485
+[645] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.645'
+[645] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[645] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[645] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[645] Log closed at 2024-03-23 03:27:06.241164
+
+[658] Log opened at 2024-03-23 03:27:15.317970
+[658] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.658'
+[658] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[658] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[658] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[658] Log closed at 2024-03-23 03:27:15.553037
+
+[671] Log opened at 2024-03-23 03:27:19.549908
+[671] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.671'
+[671] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[671] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[671] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[671] Log closed at 2024-03-23 03:27:19.748724
+
+[684] Log opened at 2024-03-23 03:28:03.064413
+[684] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.684'
+[684] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[684] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[684] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[684] Log closed at 2024-03-23 03:28:03.307323
+
+[697] Log opened at 2024-03-23 03:30:20.363880
+[697] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.697'
+[697] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[697] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[697] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[697] Log closed at 2024-03-23 03:30:20.551795
+
+[710] Log opened at 2024-03-23 03:32:08.633536
+[710] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.710'
+[710] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[710] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[710] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[710] Log closed at 2024-03-23 03:32:08.839707
+
+[723] Log opened at 2024-03-23 03:32:57.227445
+[723] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.723'
+[723] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[723] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[723] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[723] Log closed at 2024-03-23 03:32:57.440877
+
+[736] Log opened at 2024-03-23 03:33:05.550354
+[736] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.736'
+[736] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[736] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[736] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[736] Log closed at 2024-03-23 03:33:05.791811
+
+[748] Log opened at 2024-03-23 03:33:21.719597
+[748] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.748'
+[748] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[748] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[748] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[748] Log closed at 2024-03-23 03:33:21.927813
+
+[761] Log opened at 2024-03-23 03:33:50.641131
+[761] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.761'
+[761] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[761] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[761] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[761] Log closed at 2024-03-23 03:33:50.959837
+
+[774] Log opened at 2024-03-23 03:34:12.190337
+[774] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.774'
+[774] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[774] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[774] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[774] Log closed at 2024-03-23 03:34:12.400630
+
+[787] Log opened at 2024-03-23 03:34:22.597161
+[787] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.787'
+[787] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[787] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[787] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[787] Log closed at 2024-03-23 03:34:22.808076
+
+[799] Log opened at 2024-03-23 03:34:54.853049
+[799] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.799'
+[799] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[799] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[799] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[799] Log closed at 2024-03-23 03:34:55.087728
+
+[812] Log opened at 2024-03-23 03:35:45.633652
+[812] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.812'
+[812] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[812] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[812] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[812] Log closed at 2024-03-23 03:35:45.845594
+
+[825] Log opened at 2024-03-23 03:35:49.763082
+[825] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.825'
+[825] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[825] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[825] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[825] Log closed at 2024-03-23 03:35:49.967669
+
+[838] Log opened at 2024-03-23 03:36:18.355881
+[838] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.838'
+[838] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[838] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[838] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[838] Log closed at 2024-03-23 03:36:18.572344
+
+[850] Log opened at 2024-03-23 03:36:51.854941
+[850] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.850'
+[850] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[850] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[850] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[850] Log closed at 2024-03-23 03:36:52.076575
+
+[863] Log opened at 2024-03-23 03:37:01.492147
+[863] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.863'
+[863] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[863] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[863] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[863] Log closed at 2024-03-23 03:37:01.722666
+
+[876] Log opened at 2024-03-23 03:37:15.013912
+[876] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.876'
+[876] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[876] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[876] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[876] Log closed at 2024-03-23 03:37:15.235992
+
+[889] Log opened at 2024-03-23 03:37:40.519056
+[889] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.889'
+[889] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[889] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[889] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[889] Log closed at 2024-03-23 03:37:40.738949
+
+[902] Log opened at 2024-03-23 03:38:32.455468
+[902] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.902'
+[902] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[902] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[902] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[902] Log closed at 2024-03-23 03:38:32.718775
+
+[915] Log opened at 2024-03-23 03:38:38.748159
+[915] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.915'
+[915] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[915] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[915] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[915] Log closed at 2024-03-23 03:38:38.964275
+
+[928] Log opened at 2024-03-23 03:38:54.059271
+[928] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.928'
+[928] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[928] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[928] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[928] Log closed at 2024-03-23 03:38:54.282807
+
+[941] Log opened at 2024-03-23 03:39:01.705995
+[941] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.941'
+[941] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[941] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[941] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[941] Log closed at 2024-03-23 03:39:01.925779
+
+[954] Log opened at 2024-03-23 03:39:20.855068
+[954] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.954'
+[954] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[954] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[954] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[954] Log closed at 2024-03-23 03:39:21.062690
+
+[967] Log opened at 2024-03-23 03:40:02.883180
+[967] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.967'
+[967] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[967] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[967] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[967] Log closed at 2024-03-23 03:40:03.103257
+
+[980] Log opened at 2024-03-23 03:40:48.273403
+[980] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.980'
+[980] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[980] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[980] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[980] Log closed at 2024-03-23 03:40:48.487502
+
+[993] Log opened at 2024-03-23 03:41:20.102045
+[993] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.993'
+[993] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[993] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[993] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[993] Log closed at 2024-03-23 03:41:20.316653
+
+[1006] Log opened at 2024-03-23 03:41:27.362286
+[1006] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1006'
+[1006] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1006] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1006] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1006] Log closed at 2024-03-23 03:41:27.571390
+
+[1018] Log opened at 2024-03-23 03:41:38.371302
+[1018] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1018'
+[1018] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1018] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1018] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1018] Log closed at 2024-03-23 03:41:38.597951
+
+[1030] Log opened at 2024-03-23 03:42:05.621952
+[1030] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1030'
+[1030] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1030] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1030] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1030] Log closed at 2024-03-23 03:42:05.842004
+
+[1043] Log opened at 2024-03-23 03:42:11.825578
+[1043] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1043'
+[1043] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1043] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1043] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1043] Log closed at 2024-03-23 03:42:12.042781
+
+[1055] Log opened at 2024-03-23 03:42:17.634490
+[1055] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1055'
+[1055] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1055] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1055] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1055] Log closed at 2024-03-23 03:42:17.852448
+
+[1068] Log opened at 2024-03-23 03:42:39.839155
+[1068] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1068'
+[1068] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1068] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1068] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1068] Log closed at 2024-03-23 03:42:40.045050
+
+[1081] Log opened at 2024-03-23 03:42:55.085275
+[1081] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1081'
+[1081] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1081] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1081] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1081] Log closed at 2024-03-23 03:42:55.291777
+
+[1094] Log opened at 2024-03-23 03:43:10.602428
+[1094] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1094'
+[1094] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1094] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1094] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1094] Log closed at 2024-03-23 03:43:10.810653
+
+[1107] Log opened at 2024-03-23 03:45:52.862903
+[1107] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1107'
+[1107] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1107] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1107] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1107] Log closed at 2024-03-23 03:45:53.103241
+
+[1119] Log opened at 2024-03-23 03:46:25.855881
+[1119] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1119'
+[1119] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1119] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1119] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1119] Log closed at 2024-03-23 03:46:26.067724
+
+[1132] Log opened at 2024-03-23 03:46:40.936215
+[1132] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1132'
+[1132] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1132] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1132] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1132] Log closed at 2024-03-23 03:46:41.145864
+
+[1145] Log opened at 2024-03-23 03:51:58.534153
+[1145] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1145'
+[1145] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1145] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1145] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1145] Log closed at 2024-03-23 03:51:59.081324
+
+[1158] Log opened at 2024-03-23 03:52:49.122130
+[1158] [Config] INFO: Control socket set up succesfully: '@xdebug-ctrl.1158'
+[1158] [Step Debug] INFO: Connecting to configured address/port: host.docker.internal:9003.
+[1158] [Step Debug] WARN: Creating socket for 'host.docker.internal:9003', poll success, but error: Operation now in progress (29).
+[1158] [Step Debug] ERR: Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port).
+[1158] Log closed at 2024-03-23 03:52:49.331874
+

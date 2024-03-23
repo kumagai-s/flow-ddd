@@ -21,14 +21,16 @@
     "require": {
         "neos/flow": "~8.3.0",
         "neos/welcome": "^8.3",
-        "vendor/demo": "@dev"
+        "vendor/demo": "@dev",
+      "": ""
     },
     "require-dev": {
         "neos/kickstarter": "~8.3.0",
         "neos/buildessentials": "~8.3.0",
         "neos/behat": "~8.3.0",
         "phpunit/phpunit": "~9.0",
-        "mikey179/vfsstream": "~1.6"
+        "mikey179/vfsstream": "~1.6",
+        "friendsofphp/php-cs-fixer": "^3.52"
     },
     "repositories": {
         "distributionPackages": {
@@ -41,6 +43,9 @@
         "neos/fluid-adaptor": "For rendering templates with TYPO3.Fluid"
     },
     "scripts": {
+        "fixer": [
+            "bin/php-cs-fixer fix --config=.php_cs.dist.php"
+        ],
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",

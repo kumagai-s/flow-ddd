@@ -12,7 +12,7 @@
    * パーミッションの初期設定、おそらく必要な箇所に書き込み権限を与えている
 3. ./flow doctrine:migrate
    * データベースの初期化
-4. /flow resource:publishでResources/Public/にファイルをコピーする
+4. ./flow resource:publishでResources/Public/にファイルをコピーする
   * これをしないとCSSやJSが読み込まれない
   * 3のデータベースの初期化ステップを飛ばして4を実行すると以下のようにテーブルがないと言われる
   ```
