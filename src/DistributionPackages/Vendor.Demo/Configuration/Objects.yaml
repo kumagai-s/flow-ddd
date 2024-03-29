@@ -8,5 +8,14 @@
 # Repository                                                               #
 #                                                                          #
 
-Vendor\Demo\Domain\Interface\IUserRepository:
-  className: Vendor\Demo\Infrastructure\Repository\Doctrine\UserRepository
+Vendor\Demo\Domain\Repository\CompanyRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\CompanyRepository
+
+Vendor\Demo\Domain\Repository\DepartmentRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\DepartmentRepository
+
+Vendor\Demo\Domain\Repository\EmployeeRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\EmployeeRepository
+
+Vendor\Demo\Domain\Repository\TimestampRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\TimestampRepository

@@ -4,13 +4,35 @@ declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Timestamp;
 
+use Doctrine\ORM\Mapping as ORM;
+use Neos\Flow\Annotations as Flow;
+use Vendor\Demo\Domain\Model\Employee\Employee;
+
+/**
+ * @Flow\Entity
+ */
 class Timestamp
 {
+    /**
+     * @param TimestampId             $id
+     * @param Employee                $employee
+     * @param TimestampType           $type
+     * @param \DateTimeImmutable      $clockInAt
+     * @param \DateTimeImmutable      $createdAt
+     * @param \DateTimeImmutable|null $updatedAt
+     */
     public function __construct(
+        #[ORM\Column(type: 'guid')]
         private readonly TimestampId $id,
+        #[ORM\ManyToOne(targetEntity: Employee::class)]
+        private readonly Employee $employee,
+        #[ORM\Column(type: 'string')]
         private TimestampType $type,
+        #[ORM\Column(type: 'datetime')]
         private \DateTimeImmutable $clockInAt,
+        #[ORM\Column(type: 'datetime')]
         private readonly \DateTimeImmutable $createdAt,
+        #[ORM\Column(type: 'datetime')]
         private ?\DateTimeImmutable $updatedAt = null,
     ) {
     }
@@ -18,6 +40,11 @@ class Timestamp
     public function id(): TimestampId
     {
         return $this->id;
+    }
+
+    public function employee(): Employee
+    {
+        return $this->employee;
     }
 
     public function type(): TimestampType

@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Company;
 
+use Neos\Flow\Annotations as Flow;
+
+/**
+ * @Flow\ValueObject
+ */
 class CompanyName
 {
     public function __construct(

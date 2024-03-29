@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Timestamp;
 
+use Neos\Flow\Annotations as Flow;
+
+/**
+ * @Flow\ValueObject
+ */
 class TimestampType
 {
     public function __construct(

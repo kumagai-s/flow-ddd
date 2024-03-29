@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Employee;
 
+use Neos\Flow\Annotations as Flow;
+
+/**
+ * @Flow\ValueObject
+ */
 class EmployeeRole
 {
     public const ROLE_EMPLOYEE = 'employee';
