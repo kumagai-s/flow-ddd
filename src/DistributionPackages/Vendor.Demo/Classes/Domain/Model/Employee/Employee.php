@@ -6,31 +6,35 @@ namespace Vendor\Demo\Domain\Model\Employee;
 
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
-use Neos\Flow\Security\Account;
+use Neos\Flow\Annotations as Flow;
 use Vendor\Demo\Domain\Model\Company\Company;
-use Vendor\Demo\Domain\Model\Timestamp\Timestamp;
+use Vendor\Demo\Domain\Model\PunchRecord\PunchRecord;
+use Vendor\Demo\Domain\Model\PunchRecord\PunchRecordId;
+use Vendor\Demo\Domain\Model\PunchRecord\PunchRecordType;
 
+/**
+ * @Flow\Entity
+ */
 class Employee
 {
+    #[ORM\ManyToOne(targetEntity: Company::class)]
+    protected Company $company;
+
+    #[ORM\OneToMany(targetEntity: PunchRecord::class)]
+    protected Collection $punchRecords;
+
     /**
      * @param EmployeeId              $id
-     * @param Account                 $account
-     * @param Company                 $company
      * @param EmployeeName            $name
      * @param EmployeeEmail           $email
      * @param EmployeeRole            $role
      * @param \DateTimeImmutable      $createdAt
      * @param \DateTimeImmutable|null $updatedAt
      * @param \DateTimeImmutable|null $deletedAt
-     * @param Collection<Timestamp>   $timestamps
      */
     public function __construct(
         #[ORM\Column(type: 'guid')]
         private readonly EmployeeId $id,
-        #[ORM\ManyToOne(targetEntity: Account::class)]
-        private readonly Account $account,
-        #[ORM\ManyToOne(targetEntity: Company::class)]
-        private readonly Company $company,
         #[ORM\Column(type: 'string')]
         private EmployeeName $name,
         #[ORM\Column(type: 'string')]
@@ -43,24 +47,39 @@ class Employee
         private ?\DateTimeImmutable $updatedAt,
         #[ORM\Column(type: 'datetime')]
         private ?\DateTimeImmutable $deletedAt,
-        #[ORM\OneToMany(targetEntity: Timestamp::class)]
-        private readonly Collection $timestamps,
     ) {
+    }
+
+    public function punchRecords(): Collection
+    {
+        return $this->punchRecords;
+    }
+
+    public function punchIn(
+        PunchRecordId $punchRecordId,
+        \DateTimeImmutable $punchInAt,
+    ): PunchRecord {
+        $prevPunchRecord = $this->punchRecords->last();
+
+        if ($prevPunchRecord && $prevPunchRecord->type()->isPunchIn()) {
+            $punchRecordType = PunchRecordType::punchOut();
+        } else {
+            $punchRecordType = PunchRecordType::punchIn();
+        }
+
+        return new PunchRecord(
+            id: $punchRecordId,
+            employeeId: $this->id,
+            type: $punchRecordType,
+            punchInAt: $punchInAt,
+            createdAt: new \DateTimeImmutable(),
+            updatedAt: null,
+        );
     }
 
     public function id(): EmployeeId
     {
         return $this->id;
-    }
-
-    public function account(): Account
-    {
-        return $this->account;
-    }
-
-    public function company(): Company
-    {
-        return $this->company;
     }
 
     public function name(): EmployeeName
@@ -116,15 +135,5 @@ class Employee
     public function changeDeletedAt(\DateTimeImmutable $deletedAt): void
     {
         $this->deletedAt = $deletedAt;
-    }
-
-    public function timestamps(): Collection
-    {
-        return $this->timestamps;
-    }
-
-    public function clockIn(Timestamp $timestamp): void
-    {
-        $this->timestamps->add($timestamp);
     }
 }

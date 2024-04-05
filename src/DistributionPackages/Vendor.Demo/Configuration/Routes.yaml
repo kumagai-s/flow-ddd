@@ -3,19 +3,10 @@
 #                                                                        #
 
 -
-  name: 'Welcome screen'
-  uriPattern: 'flow/welcome'
+  name: 'Register company'
+  uriPattern: 'flow/register-company'
   defaults:
-    '@package':    'Neos.Welcome'
-    '@controller': 'Standard'
-    '@action':     'index'
-    '@format':     'html'
-
--
-  name: 'Redirect to welcome screen'
-  uriPattern: ''
-  defaults:
-    '@package':    'Neos.Welcome'
-    '@controller': 'Standard'
-    '@action':     'redirect'
-    '@format':     'html'
+    '@package':    'Vendor.Demo'
+    '@controller': 'Company'
+    '@action':     'register'
+  httpMethods: ['POST']

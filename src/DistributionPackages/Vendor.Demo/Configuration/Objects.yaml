@@ -1,8 +1,9 @@
 #                                                                          #
-# Service                                                                  #
+# UseCase                                                                  #
 #                                                                          #
 
-
+Vendor\Demo\Application\UseCase\Company\RegisterCompany:
+  className: Vendor\Demo\Application\UseCase\Company\RegisterCompany
 
 #                                                                          #
 # Repository                                                               #
@@ -11,11 +12,5 @@
 Vendor\Demo\Domain\Repository\CompanyRepository:
   className: Vendor\Demo\Infrastructure\Repository\Doctrine\CompanyRepository
 
-Vendor\Demo\Domain\Repository\DepartmentRepository:
-  className: Vendor\Demo\Infrastructure\Repository\Doctrine\DepartmentRepository
-
-Vendor\Demo\Domain\Repository\EmployeeRepository:
-  className: Vendor\Demo\Infrastructure\Repository\Doctrine\EmployeeRepository
-
-Vendor\Demo\Domain\Repository\TimestampRepository:
-  className: Vendor\Demo\Infrastructure\Repository\Doctrine\TimestampRepository
+Vendor\Demo\Domain\Repository\PunchRecordRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\PunchRecordRepository

@@ -21,8 +21,7 @@
     "require": {
         "neos/flow": "~8.3.0",
         "neos/welcome": "^8.3",
-        "vendor/demo": "@dev",
-      "": ""
+        "vendor/demo": "@dev"
     },
     "require-dev": {
         "neos/kickstarter": "~8.3.0",

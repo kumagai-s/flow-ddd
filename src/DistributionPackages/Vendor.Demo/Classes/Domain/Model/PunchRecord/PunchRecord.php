@@ -2,34 +2,33 @@
 
 declare(strict_types=1);
 
-namespace Vendor\Demo\Domain\Model\Timestamp;
+namespace Vendor\Demo\Domain\Model\PunchRecord;
 
 use Doctrine\ORM\Mapping as ORM;
 use Neos\Flow\Annotations as Flow;
-use Vendor\Demo\Domain\Model\Employee\Employee;
+use Vendor\Demo\Domain\Model\Employee\EmployeeId;
 
 /**
  * @Flow\Entity
  */
-class Timestamp
+class PunchRecord
 {
     /**
-     * @param TimestampId             $id
-     * @param Employee                $employee
-     * @param TimestampType           $type
-     * @param \DateTimeImmutable      $clockInAt
+     * @param PunchRecordId           $id
+     * @param EmployeeId              $employeeId
+     * @param PunchRecordType         $type
      * @param \DateTimeImmutable      $createdAt
      * @param \DateTimeImmutable|null $updatedAt
      */
     public function __construct(
         #[ORM\Column(type: 'guid')]
-        private readonly TimestampId $id,
-        #[ORM\ManyToOne(targetEntity: Employee::class)]
-        private readonly Employee $employee,
+        private readonly PunchRecordId $id,
+        #[ORM\Column(type: 'guid')]
+        private readonly EmployeeId $employeeId,
         #[ORM\Column(type: 'string')]
-        private TimestampType $type,
+        private PunchRecordType $type,
         #[ORM\Column(type: 'datetime')]
-        private \DateTimeImmutable $clockInAt,
+        private \DateTimeImmutable $punchInAt,
         #[ORM\Column(type: 'datetime')]
         private readonly \DateTimeImmutable $createdAt,
         #[ORM\Column(type: 'datetime')]
@@ -37,24 +36,19 @@ class Timestamp
     ) {
     }
 
-    public function id(): TimestampId
+    public function id(): PunchRecordId
     {
         return $this->id;
     }
 
-    public function employee(): Employee
-    {
-        return $this->employee;
-    }
-
-    public function type(): TimestampType
+    public function type(): PunchRecordType
     {
         return $this->type;
     }
 
-    public function clockInAt(): \DateTimeImmutable
+    public function punchInAt(): \DateTimeImmutable
     {
-        return $this->clockInAt;
+        return $this->punchInAt;
     }
 
     public function createdAt(): \DateTimeImmutable
@@ -67,14 +61,14 @@ class Timestamp
         return $this->updatedAt;
     }
 
-    public function changeType(TimestampType $type): void
+    public function changeType(PunchRecordType $type): void
     {
         $this->type = $type;
     }
 
-    public function changeDatetime(\DateTimeImmutable $datetime): void
+    public function changePunchInAt(\DateTimeImmutable $datetime): void
     {
-        $this->clockInAt = $datetime;
+        $this->punchInAt = $datetime;
     }
 
     public function changeUpdatedAt(\DateTimeImmutable $datetime): void

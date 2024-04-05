@@ -15,6 +15,7 @@ use Neos\Flow\Security\Context;
 use Neos\Flow\Security\Cryptography\HashService;
 use Neos\Flow\Security\Cryptography\PrecomposedHashProvider;
 use Neos\Flow\Security\Exception\UnsupportedAuthenticationTokenException;
+use Vendor\Demo\Domain\Repository\CompanyRepository;
 use Vendor\Demo\Security\Token\EmailPasswordFromRequestToken;
 
 /**
@@ -29,7 +30,7 @@ final class PersistedEmailPasswordProvider extends AbstractProvider
      */
     protected $accountRepository;
 
-    protected EmployeeRepository $employeeRepository;
+    protected CompanyRepository $companyRepository;
 
     /**
      * @var HashService
@@ -109,11 +110,13 @@ final class PersistedEmailPasswordProvider extends AbstractProvider
             return;
         }
 
-        $employee = $this->employeeRepository->findByAccountIdAndComapnyIdAndEmail(
-            $account->getAccountIdentifier(),
+        $company = $this->companyRepository->findByAccount($account);
 
-            $email
-        );
+        if (null === $company) {
+            return;
+        }
+
+        $employee = $company->findEmployeeByAccount($account);
 
         if (null === $employee) {
             return;
