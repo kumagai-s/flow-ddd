@@ -1,12 +1,16 @@
 #                                                                          #
-# Service                                                                  #
+# UseCase                                                                  #
 #                                                                          #
 
-
+Vendor\Demo\Application\UseCase\Company\RegisterCompany:
+  className: Vendor\Demo\Application\UseCase\Company\RegisterCompany
 
 #                                                                          #
 # Repository                                                               #
 #                                                                          #
 
-Vendor\Demo\Domain\Interface\IUserRepository:
-  className: Vendor\Demo\Infrastructure\Repository\Doctrine\UserRepository
+Vendor\Demo\Domain\Repository\CompanyRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\CompanyRepository
+
+Vendor\Demo\Domain\Repository\PunchRecordRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\PunchRecordRepository

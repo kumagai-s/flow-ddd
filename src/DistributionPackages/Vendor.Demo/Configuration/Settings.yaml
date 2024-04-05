@@ -4,3 +4,9 @@ Neos:
       routes:
         'Neos.Welcome':
           position: 'start'
+    security:
+      authentication:
+        providers:
+          'PersistEmailPasswordProvider':
+            provider: 'Vendor\Demo\Security\Authentication\Provider\PersistEmailPasswordProvider'
+            token: 'Vendor\Demo\Security\Authentication\Token\EmailPasswordToken'

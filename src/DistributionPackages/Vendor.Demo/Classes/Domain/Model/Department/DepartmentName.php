@@ -1,15 +1,13 @@
 <?php
 
-declare(strict_types=1);
-
-namespace Vendor\Demo\Domain\Model\Employee;
+namespace Vendor\Demo\Domain\Model\Department;
 
 use Neos\Flow\Annotations as Flow;
 
 /**
  * @Flow\ValueObject
  */
-class EmployeeName
+class DepartmentName
 {
     public function __construct(
         private readonly string $value,
@@ -19,8 +17,13 @@ class EmployeeName
         }
     }
 
-    public function equals(EmployeeName $other): bool
+    public function value(): string
     {
-        return $this->value === $other->value;
+        return $this->value;
+    }
+
+    public function equals(DepartmentName $other): bool
+    {
+        return $this->value === $other->value();
     }
 }

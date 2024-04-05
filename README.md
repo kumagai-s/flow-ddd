@@ -15,7 +15,7 @@
 4. ./flow resource:publishでResources/Public/にファイルをコピーする
   * これをしないとCSSやJSが読み込まれない
   * 3のデータベースの初期化ステップを飛ばして4を実行すると以下のようにテーブルがないと言われる
-  ```
+    ```
     root@83607adbc530:/var/www/html# ./flow resource:publish
     Publishing resources of collection "static"
     Publishing resources of collection "persistent"
@@ -45,49 +45,52 @@
     Line: 117
     ```
     
-```
-Unable to create a proxy for a final class "Neos\Welcome\Domain\Model\Account\Account".
-Type: Doctrine\Common\Proxy\Exception\InvalidArgumentException
-File:
-Packages/Libraries/doctrine/common/src/Proxy/Exception/InvalidArgumentExcep
-tion.php
-Line: 91
+    ```
+    Unable to create a proxy for a final class "Neos\Welcome\Domain\Model\Account\Account".
+    Type: Doctrine\Common\Proxy\Exception\InvalidArgumentException
+    File:
+    Packages/Libraries/doctrine/common/src/Proxy/Exception/InvalidArgumentExcep
+    tion.php
+    Line: 91
 
-Type: Neos\Flow\Core\Booting\Exception\SubProcessException
-Code: 1355480641
-File: Packages/Framework/Neos.Flow/Classes/Core/Booting/Scripts.php
-Line: 727
-```
+    Type: Neos\Flow\Core\Booting\Exception\SubProcessException
+    Code: 1355480641
+    File: Packages/Framework/Neos.Flow/Classes/Core/Booting/Scripts.php
+    Line: 727
+    ```
 
-```
-Fatal error: Non-readonly class Neos\Welcome\Domain\Model\Account\Account
-cannot extend readonly class
-Neos\Welcome\Domain\Model\Account\Account_Original in
-/var/www/html/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/Neos_Welcome_Domain_Model_Account_Account.php
-on line 39
+    ```
+    Fatal error: Non-readonly class Neos\Welcome\Domain\Model\Account\Account
+    cannot extend readonly class
+    Neos\Welcome\Domain\Model\Account\Account_Original in
+    /var/www/html/Data/Temporary/Development/Cache/Code/Flow_Object_Classes/Neos_Welcome_Domain_Model_Account_Account.php
+    on line 39
 
-Type: Neos\Flow\Core\Booting\Exception\SubProcessException
-Code: 1355480641
-File: Packages/Framework/Neos.Flow/Classes/Core/Booting/Scripts.php
-Line: 727
-```
+    Type: Neos\Flow\Core\Booting\Exception\SubProcessException
+    Code: 1355480641
+    File: Packages/Framework/Neos.Flow/Classes/Core/Booting/Scripts.php
+    Line: 727
+    ```
 
-```
-root@551aaa1e5163:/var/www/html# ./flow flow:cache:flush
-No composer manifest file found at "/var/www/html/Packages/Application/Kumagai.Demo/composer.json".
+    ```
+    root@551aaa1e5163:/var/www/html# ./flow flow:cache:flush
+    No composer manifest file found at "/var/www/html/Packages/Application/Kumagai.Demo/composer.json".
 
-Type: Neos\Flow\Composer\Exception\MissingPackageManifestException
-Code: 1349868540
-File: Packages/Framework/Neos.Flow/Classes/Composer/ComposerUtility.php
-Line: 98
-```
+    Type: Neos\Flow\Composer\Exception\MissingPackageManifestException
+    Code: 1349868540
+    File: Packages/Framework/Neos.Flow/Classes/Composer/ComposerUtility.php
+    Line: 98
+    ```
 
-```
-root@551aaa1e5163:/var/www/html# ./flow package:create Vendor.Demo
-No composer manifest file found at "/var/www/html/Packages/Application/Kumagai.Demo/composer.json".
-Type: Neos\Flow\Composer\Exception\MissingPackageManifestException
-Code: 1349868540
-File: Packages/Framework/Neos.Flow/Classes/Composer/ComposerUtility.php
-Line: 98
-```
+    ```
+    root@551aaa1e5163:/var/www/html# ./flow package:create Vendor.Demo
+    No composer manifest file found at "/var/www/html/Packages/Application/Kumagai.Demo/composer.json".
+    Type: Neos\Flow\Composer\Exception\MissingPackageManifestException
+    Code: 1349868540
+    File: Packages/Framework/Neos.Flow/Classes/Composer/ComposerUtility.php
+    Line: 98
+    ```
 
+## UML
+
+![uml](uml.drawio.svg)
