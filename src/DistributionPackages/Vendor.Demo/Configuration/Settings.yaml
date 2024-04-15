@@ -2,11 +2,11 @@ Neos:
   Flow:
     mvc:
       routes:
-        'Neos.Welcome':
+        'Vendor.Demo':
           position: 'start'
-    security:
-      authentication:
-        providers:
-          'PersistEmailPasswordProvider':
-            provider: 'Vendor\Demo\Security\Authentication\Provider\PersistEmailPasswordProvider'
-            token: 'Vendor\Demo\Security\Authentication\Token\EmailPasswordToken'
+    # security:
+    #   authentication:
+    #     providers:
+    #       'PersistEmailPasswordProvider':
+    #         provider: 'Vendor\Demo\Security\Authentication\Provider\PersistEmailPasswordProvider'
+    #         token: 'Vendor\Demo\Security\Authentication\Token\EmailPasswordToken'

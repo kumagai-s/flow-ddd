@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\PunchRecord;
 
+use Doctrine\ORM\Mapping as ORM;
 use Neos\Flow\Annotations as Flow;
 
 /**
@@ -26,7 +27,12 @@ class PunchRecordType
     }
 
     public function __construct(
-        private readonly string $value,
+        /**
+         * @ORM\Column(name="type", type="string")
+         *
+         * @var string
+         */
+        protected string $value,
     ) {
         if (empty($value)) {
             throw new \InvalidArgumentException('Punch time date cannot be empty');

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Vendor\Demo\Domain\Model\Employee;
 
+use Doctrine\ORM\Mapping as ORM;
 use Neos\Flow\Annotations as Flow;
 
 /**
@@ -12,7 +13,12 @@ use Neos\Flow\Annotations as Flow;
 class EmployeeEmail
 {
     public function __construct(
-        private readonly string $value,
+        /**
+         * @ORM\Column(name="email", type="string")
+         *
+         * @var string
+         */
+        protected string $value,
     ) {
     }
 

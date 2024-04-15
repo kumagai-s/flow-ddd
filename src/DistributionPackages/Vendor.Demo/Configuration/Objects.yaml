@@ -12,5 +12,5 @@ Vendor\Demo\Application\UseCase\Company\RegisterCompany:
 Vendor\Demo\Domain\Repository\CompanyRepository:
   className: Vendor\Demo\Infrastructure\Repository\Doctrine\CompanyRepository
 
-Vendor\Demo\Domain\Repository\PunchRecordRepository:
-  className: Vendor\Demo\Infrastructure\Repository\Doctrine\PunchRecordRepository
+Vendor\Demo\Domain\Repository\EmployeeRepository:
+  className: Vendor\Demo\Infrastructure\Repository\Doctrine\EmployeeRepository

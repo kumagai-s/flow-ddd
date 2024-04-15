@@ -10,8 +10,6 @@ use Vendor\Demo\Domain\Model\Company\CompanyId;
 
 interface CompanyRepository
 {
-    public function nextIdentity(): string;
-
     public function save(Company $company): void;
 
     public function find(CompanyId $id): ?Company;

@@ -91,6 +91,35 @@
     Line: 98
     ```
 
+## モデル
+
+__constructorでプロパティを引数にすることができないっぽい（？
+キャッシュでは「{モデル名}_Original」になり、FW側で生成されたクラスを拡張する形で生成される
+FW側で生成されたクラスを使用するようになるため、実際モデルを使用しようとするとFW側で生成されたクラスの__constructorが実行されることになる
+
+## リポジトリ
+
+リポジトリの実装をDomain/Repository以外の場所で実装したい場合は「ENTITY_CLASSNAME」定数の定義が必須
+これをしないとFW側のインスタンスチェックが通らずエラーになる
+src/Packages/Framework/Neos.Flow/Classes/Persistence/Repository.php:79
+
+## Doctrine
+
+所有者側：mappedBy
+所有される側：inversedBy
+上記を明示しないと勝手に中間テーブルが生成されてしまう
+
+ValueObjectを使用するときにカラム名が「{エンティティのプロパティ名}_{ValueObjectで定義したカラム名}」になってしまう
+これを防ぐには「@ORM\Embedded(columnPrefix=false)」で指定する必要がある
+
+中間テーブルの名前を指定したいときは「@ORM\JoinTable(name="tabel_name")」で指定する
+さらに外部キーを格納するカラム名を指定したいときは「, joinColumns={@ORM\JoinColumn(name="{所有される側}")}, inverseJoinColumns={@ORM\JoinColumn(name="{所有者側}")}」で指定する
+
+## キャッシュ
+
+モデルやリポジトリなどFW側でキャッシュを生成しているファイルを変更した場合はキャッシュの更新が必要
+./flow cache:setupall
+
 ## UML
 
 ![uml](uml.drawio.svg)

@@ -12,6 +12,7 @@ class CompanyController extends ActionController
 {
     /**
      * @Flow\Inject
+     *
      * @var \Neos\Flow\Mvc\View\JsonView
      */
     protected $view;

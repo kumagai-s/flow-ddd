@@ -6,73 +6,56 @@ namespace Vendor\Demo\Domain\Model\PunchRecord;
 
 use Doctrine\ORM\Mapping as ORM;
 use Neos\Flow\Annotations as Flow;
-use Vendor\Demo\Domain\Model\Employee\EmployeeId;
+use Vendor\Demo\Domain\Model\Employee\Employee;
 
 /**
  * @Flow\Entity
+ *
+ * @ORM\Table(name="punch_records")
  */
 class PunchRecord
 {
     /**
-     * @param PunchRecordId           $id
-     * @param EmployeeId              $employeeId
-     * @param PunchRecordType         $type
-     * @param \DateTimeImmutable      $createdAt
-     * @param \DateTimeImmutable|null $updatedAt
+     * @ORM\ManyToOne(targetEntity=Employee::class, inversedBy="punchRecords")
+     *
+     * @ORM\JoinColumn(name="employee_id")
      */
+    protected Employee $employee;
+
     public function __construct(
-        #[ORM\Column(type: 'guid')]
-        private readonly PunchRecordId $id,
-        #[ORM\Column(type: 'guid')]
-        private readonly EmployeeId $employeeId,
-        #[ORM\Column(type: 'string')]
-        private PunchRecordType $type,
-        #[ORM\Column(type: 'datetime')]
-        private \DateTimeImmutable $punchInAt,
-        #[ORM\Column(type: 'datetime')]
-        private readonly \DateTimeImmutable $createdAt,
-        #[ORM\Column(type: 'datetime')]
-        private ?\DateTimeImmutable $updatedAt = null,
+        /**
+         * @ORM\Embedded(columnPrefix=false)
+         *
+         * @var PunchRecordType
+         */
+        protected PunchRecordType $type,
+
+        /**
+         * @ORM\Column(name="punch_in_at", type="datetime")
+         *
+         * @var \DateTime
+         */
+        private \DateTime $punchInAt,
     ) {
     }
 
-    public function id(): PunchRecordId
-    {
-        return $this->id;
-    }
-
-    public function type(): PunchRecordType
+    public function getType(): PunchRecordType
     {
         return $this->type;
     }
 
-    public function punchInAt(): \DateTimeImmutable
-    {
-        return $this->punchInAt;
-    }
-
-    public function createdAt(): \DateTimeImmutable
-    {
-        return $this->createdAt;
-    }
-
-    public function updatedAt(): ?\DateTimeImmutable
-    {
-        return $this->updatedAt;
-    }
-
-    public function changeType(PunchRecordType $type): void
+    public function setType(string $type): void
     {
         $this->type = $type;
     }
 
-    public function changePunchInAt(\DateTimeImmutable $datetime): void
+    public function getPunchInAt(): \DateTime
     {
-        $this->punchInAt = $datetime;
+        return $this->punchInAt;
     }
 
-    public function changeUpdatedAt(\DateTimeImmutable $datetime): void
+    public function setPunchInAt(\DateTime $punchInAt): void
     {
-        $this->updatedAt = $datetime;
+        $this->punchInAt = $punchInAt;
     }
 }

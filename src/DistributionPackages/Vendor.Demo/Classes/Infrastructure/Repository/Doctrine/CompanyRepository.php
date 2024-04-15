@@ -13,10 +13,7 @@ use Vendor\Demo\Domain\Model\Company\CompanyId;
 #[Flow\Scope('singleton')]
 class CompanyRepository extends Repository implements \Vendor\Demo\Domain\Repository\CompanyRepository
 {
-    public function nextIdentity(): string
-    {
-        return \Ramsey\Uuid\Uuid::uuid4()->toString();
-    }
+    public const ENTITY_CLASSNAME = Company::class;
 
     public function save(Company $company): void
     {
